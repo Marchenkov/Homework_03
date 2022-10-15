@@ -54,7 +54,11 @@ p {
     margin: 0;
     padding: 0px;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;    
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -136,16 +140,14 @@ p {
     gap: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 94px;
     justify-content: center;
 
 }
 
 .team {
-    display: block;
-    margin-top: 94px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     text-align: center;
     background-color: #F5F4FA;
 
@@ -153,11 +155,7 @@ p {
 
 .team-descr {
     display: flex;
-    gap: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-    justify-content: center;
+    gap: 30px;    
 }
 .team-item {
     background: #FFFFFF;
@@ -232,6 +230,7 @@ p {
     align-items: center;
     flex-direction: column;
 }
+
 .button {
     border-radius: 4px;
     margin-left: auto;
@@ -243,6 +242,7 @@ p {
     color: var(--color-background);
     background-color: var(--color-background-button);
     font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.96px;
@@ -250,6 +250,9 @@ p {
 }
 .section {
     padding: 94px 0px 0px 0px;
+}
+.section-portfolio {
+    padding: 94px 0px 0px 94px;
 }
 .our-special {
     font-size: 0;
@@ -352,15 +355,12 @@ p {
 }
 
 .our-specials {
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
     color: var(--color-primary);
     font-style: normal;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
 }
 
 .main-reason {
@@ -381,7 +381,7 @@ p {
 }
 
 .firs-reason {
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
     font-style: normal;
     font-size: 14px;
@@ -389,12 +389,28 @@ p {
     text-transform: uppercase;
 
 }
+.firs-reason-1 {
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
 
+}
 .meaning {
     color: #757575;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    padding-bottom: 30px;
+
+}
+.meaning-1 {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px;
     margin-bottom: 30px;
 
 }
@@ -425,14 +441,13 @@ p {
 }
 
 .bm-cont {
-    margin-top: 20px;
     padding: 0;
 }
 .bm-cont .item {
     margin-bottom: 9px;
 }
 .bm-cont .item::not(last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 0px;
 }
 
 .portfolio h1{
