@@ -69,6 +69,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.container-container-2 {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
@@ -138,9 +140,6 @@ img {
 .photo {
     display: flex;
     gap: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 94px;
     justify-content: center;
 
 }
@@ -251,8 +250,8 @@ img {
 .section {
     padding: 94px 0px 0px 0px;
 }
-.section-portfolio {
-    padding: 94px 0px 0px 94px;
+.section-1 {
+    padding: 94px 0px 94px 0px;
 }
 .our-special {
     font-size: 0;
@@ -309,14 +308,6 @@ img {
     width: 370px;
     
 }
-
-.pr-image-pf {
-    display: block;
-    width: 370px;
-    height: auto;
-    margin-right: 0;
-}
-
 .firs-reason-pf {
     margin-bottom: 4px;
     text-align: left;
@@ -390,7 +381,7 @@ img {
 
 }
 .firs-reason-1 {
-    margin-top: 30px;
+    margin-bottom: 10px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.1;
@@ -410,9 +401,6 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-
 }
 
 .basуment {
@@ -446,7 +434,7 @@ img {
 .bm-cont .item {
     margin-bottom: 9px;
 }
-.bm-cont .item::not(last-child) {
+.bm-cont .item:last-child {
     margin-bottom: 0px;
 }
 
