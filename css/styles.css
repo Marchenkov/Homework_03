@@ -329,14 +329,6 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
-
-.pr-image {
-    
-    max-width: 370px;
-    height: auto;
-    margin-right: 0;
-}
-
 .sighn {
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
